@@ -1,0 +1,53 @@
+doctype html
+html
+  head
+    title Aryan Dance Academy  
+    style
+      include ../static/style.css
+  body
+   nav.top#navBar
+          ul
+            li #[a(href="/") Home]
+            li #[a(href="/") About ]
+            li #[a(href="/") Services ]
+            li #[a(href="/")  Class info ]
+            li #[a(href="/") Contact us ] 
+  section#introSection  
+       div.wel   Welcome to aryan dance academy 
+       div.eat  DANCE EAT SLEEP REPEAT 
+  section#ourmission 
+         h2  OUR MISSION
+         div.cards
+          h3   Dance with your will 
+          div.card-box
+                div.card-img
+                    img(src="../static/logo1.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+         div.cards
+          h3   Become best dancer of world 
+          div.card-box
+                div.card-img
+                    img(src="../static/logo3.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+         div.cards
+          h3  Get fit and flexible
+          div.card-box
+                div.card-img
+                    img(src="../static/logo2.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        
+  section#sponsersSection  
+       h1 Our Sponser 
+       div.logo
+          img(src="../static/1.png", class ="spImage" alt="") 
+          img(src="../static/2.png", class ="spImage" alt="") 
+          img(src="../static/3.png", class ="spImage" alt="") 
+          img(src="../static/4.png", class ="spImage" alt="") 
+  footer#footerSection
+       | Copyright section 2020 Aryanacademydance            
+  script
+      include ../static/index.js
